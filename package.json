@@ -1,0 +1,20 @@
+{
+  "name": "doc_care",
+  "version": "1.0.0",
+  "description": "Dog daycare website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/html/index.html",
+    "devopen": "parcel src/html/index.html --open 'google chrome'",
+    "build": "parcel build src/html/index.html",
+    "prebuild": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "posthtml-expressions": "^1.4.1",
+    "posthtml-include": "^1.4.3",
+    "prettier": "^2.0.5"
+  }
+}
