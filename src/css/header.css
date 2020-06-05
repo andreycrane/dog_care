@@ -1,0 +1,68 @@
+.head-sect {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/duotone.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 26px;
+}
+
+.head-sect__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-sect__nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo__image {
+  margin-right: 11px;
+}
+
+.head-sect__nav-contacts,
+.head-sect__nav-mainmenu {
+  display: none;
+}
+
+.head-sect__nav-mobile-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-mobile-btn__dash {
+  width: 24px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 3px 3px;
+}
+
+.head-sect__title {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.head-sect__title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 56px;
+}
+
+.head-sect__title-btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2),
+    0px 8px 16px rgba(38, 38, 38, 0.24);
+  background: #f2726f;
+  border-radius: 8px;
+  padding: 9px 26px;
+}
