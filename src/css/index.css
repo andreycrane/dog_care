@@ -24,3 +24,5 @@ body {
 @import './promise.css';
 @import './appointment.css';
 @import './services.css';
+@import './service.css';
+@import './contact.css';
