@@ -19,3 +19,6 @@ body {
 }
 
 @import './header.css';
+@import './about.css';
+@import './promises.css';
+@import './promise.css';
