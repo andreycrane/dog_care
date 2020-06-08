@@ -32,6 +32,61 @@ module.exports = {
             `,
           },
         ],
+        services: [
+          {
+            img: '../img/services/dog_boarding_24x.svg',
+            title: 'Pet Boarding (No Cages)',
+            description: `
+              At vero eos et accusamus et iusto odio dignissimos
+              ducimus qui blanditiis praesentium corrupti quos
+              dolores et quas.`,
+          },
+          {
+            img: '../img/services/dog_daycare_24x.svg',
+            title: 'Pet Daycare',
+            description: `
+              At vero eos et accusamus et iusto odio dignissimos
+              ducimus qui blanditiis praesentium corrupti quos
+              dolores et quas.
+            `,
+          },
+          {
+            img: '../img/services/dog_grooming_24x.svg',
+            title: 'Pet Day Spa & Grooming',
+            description: `
+              At vero eos et accusamus et iusto odio dignissimos
+              ducimus qui blanditiis praesentium corrupti
+              quos dolores et quas.
+              `,
+          },
+          {
+            img: '../img/services/dog_food_24x.svg',
+            title: 'Custom Meal Plans',
+            description: `
+              At vero eos et accusamus et iusto odio
+              dignissimos ducimus qui blanditiis
+              praesentium corrupti quos dolores et quas.
+              `,
+          },
+          {
+            img: '../img/services/dog_training_24x.svg',
+            title: 'Pet Training',
+            description: `
+              At vero eos et accusamus et iusto
+              odio dignissimos ducimus qui blanditiis
+              praesentium corrupti quos dolores et quas.
+              `,
+          },
+          {
+            img: '../img/services/dog_collar_24x.svg',
+            title: 'Shop Our Store!',
+            description: `
+              At vero eos et accusamus et iusto odio
+              dignissimos ducimus qui blanditiis praesentium
+              corrupti quos dolores et quas.
+              `,
+          },
+        ],
       },
     },
   },
