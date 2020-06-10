@@ -87,6 +87,29 @@ module.exports = {
               `,
           },
         ],
+        customers: [
+          {
+            img: '../img/Ellipse 2.png',
+            name: 'Cullen Bohannon',
+            review: `
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore ex
+              magna aliqua. Ut enim illum ad minim veniam, quis ea exercitation
+              ullamco cillum ut enim dolore.
+            `,
+          },
+          {
+            img: '../img/Customer 2.png',
+            name: 'Jennifer Thomas',
+            review: `
+              Sed ut perspiciatis unde omnis iste natus
+              error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae
+              ab illo inventore veritatis et quasi ipsam
+              voluptatem aspernatur.
+            `,
+          },
+        ],
       },
     },
   },

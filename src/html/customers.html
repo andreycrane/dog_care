@@ -1,0 +1,13 @@
+<section class="customers-section">
+  <h1 class="customers-section__title">
+   our customers
+  </h1>
+  <p class="customers-section__subtitle">
+    Illum qui dolorem eum quo voluptas ut distinctio
+  </p>
+  <div class="customers-section__wrapper">
+    <each loop="customer in customers">
+      <include src="./src/html/customer.html" locals="{ customer }"></include>
+    </each>
+  </div>
+</section>
