@@ -110,6 +110,28 @@ module.exports = {
             `,
           },
         ],
+        stats: [
+          {
+            img: '../img/stats/dog_duckling_24x.svg',
+            prop: 'puppy baths',
+            value: '3,700',
+          },
+          {
+            img: '../img/stats/dog_house_24px.svg',
+            prop: 'dogs boarded',
+            value: '4,500',
+          },
+          {
+            img: '../img/stats/dog_leash_24x.svg',
+            prop: 'pups trained',
+            value: '2,900',
+          },
+          {
+            img: '../img/stats/dog_food_bowl_24x.svg',
+            prop: 'meals served',
+            value: '12k+',
+          },
+        ],
       },
     },
   },

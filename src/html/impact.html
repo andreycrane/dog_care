@@ -1,1 +1,25 @@
-<section class="impact-section"></section>
+<section class="impact-section">
+  <h2 class="impact-section__title">our impact</h2>
+  <p class="impact-section__subtitle">
+    Nemo enim ipsam voluptatem quia voluptas
+  </p>
+  <picture>
+    <img
+      src="../img/pexels-photo-612813 2.png"
+      alt=""
+      loading="lazy"
+      importance="low"
+    />
+  </picture>
+  <div class="impact-section__stats">
+    <each loop="stat in stats">
+      <include src="./src/html/stat.html" locals="{ stat }"></include>
+    </each>
+  </div>
+  <div class="impact-section__appointment-block">
+    <h2 class="appointmetn-block__title"></h2>
+    <a class="appointmetn-block__button" href="">
+      make an appointment
+    </a>
+  </div>
+</section>
