@@ -1,1 +1,31 @@
-.customers-item {}
+.customers-item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  padding: 44px;
+}
+
+.customers-item__review {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+
+.customers-item__image {
+  float: left;
+  width: 48px;
+  width: 48px;
+  margin-right: 17px;
+}
+
+.customers-item__name {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 0.15px;
+  color: #f2726f;
+  margin-bottom: 0;
+}

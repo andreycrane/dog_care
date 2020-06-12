@@ -1,5 +1,8 @@
 .section-customers {
   padding: 20px;
+  background: #f5f5f5;
+  background-image: url('../img/customers_background.svg');
+  background-size: cover;
 }
 
 .section-customers__wrapper {

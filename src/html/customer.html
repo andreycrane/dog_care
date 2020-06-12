@@ -1,12 +1,17 @@
 <div class="customers-item">
+  <p class="customers-item__review">
+    {{ customer.review }}
+  </p>
   <picture>
     <img
+      class="customers-item__image"
       src="{{ customer.img }}"
       alt=""
       loading="lazy"
       importance="low"
     />
   </picture>
-  <p>{{ customer.name }}</p>
-  <p>{{ customer.review }}</p>
+  <p class="customers-item__name">
+    {{ customer.name }}
+  </p>
 </div>
