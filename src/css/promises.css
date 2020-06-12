@@ -3,10 +3,6 @@
   background-color: #f5f5f5;
 }
 
-.section-promise__title {
-  color: #5d62b5;
-}
-
 .section-promise__promises {
   display: flex;
   flex-direction: column;
