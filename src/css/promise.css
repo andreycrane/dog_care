@@ -1,0 +1,22 @@
+.promise-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promise-item__image {
+  margin-bottom: 5px;
+}
+
+.promise-item__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #f2726f;
+}
+
+.promise-item__description {
+  color: #4b4b4b;
+  text-align: center;
+}

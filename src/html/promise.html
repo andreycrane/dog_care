@@ -1,5 +1,10 @@
 <div class="promise-item">
-  <img src="{{ promise.img }}" loading="lazy" importane="low" />
-  <h4>{{ promise.title }}</h4>
-  <p>{{ promise.text }}</p>
+  <img
+    class="promise-item__image"
+    src="{{ promise.img }}"
+    loading="lazy"
+    importane="low"
+  />
+  <h4 class="promise-item__title">{{ promise.title }}</h4>
+  <p class="promise-item__description section-paragraph">{{ promise.text }}</p>
 </div>
