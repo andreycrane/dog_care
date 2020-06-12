@@ -1,1 +1,8 @@
-.customers-section {}
+.section-customers {
+  padding: 20px;
+}
+
+.section-customers__wrapper {
+  display: flex;
+  flex-direction: column;
+}
