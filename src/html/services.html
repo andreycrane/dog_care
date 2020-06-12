@@ -1,10 +1,14 @@
-<section class="services-section">
-  <h2>Our Services</h2>
-  <p>Sed perspiciatis omnis iste natus</p>
-  <div class="services-section__services">
+<section class="section-services">
+  <h2 class="section-services__title section-header">
+    Our Services
+  </h2>
+  <h3 class="section-services__subtitle section-subheader">
+    Sed perspiciatis omnis iste natus
+  </h3>
+  <div class="section-services__services">
     <each loop="service in services">
       <include src="./src/html/service.html" locals="{ service }"></include>
     </each>
   </div>
-  <a>learn more</a>
+  <a class="section-services__btn section-btn">learn more</a>
 </section>
