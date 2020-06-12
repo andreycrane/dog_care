@@ -1,24 +1,33 @@
-<section class="gallery-section">
-  <h1 class="gallery-section__title">
-    GALLERY & LIVE STREAMS
-  </h1>
-  <p class="gallery-section__subtitle">
-    Check out our hard workers
-  </p>
-  <div class="gallery-section__gallery-block">
-    <div class="gallery-block__tabs">
-      <div class="gallery-block__tabs-item">Gallery</div>
-      <div class="gallery-block__tabs-item">Live Stream: Yard 1</div>
-      <div class="gallery-block__tabs-item">Live Stream: Yard 2</div>
-      <div class="gallery-block__tabs-item">Live Stream: Yard 3</div>
-    </div>
-    <div class="gallery-block__tabs-content">
-      <img
-        src="../img/Image.png"
-        alt=""
-        loading="lazy"
-        importance="low"
-      >
+<section class="section-gallery">
+  <div class="section-gallery__background"></div>
+  <div class="section-gallery__wrapper">
+    <h1 class="section-gallery__title section-header">
+      GALLERY & LIVE STREAMS
+    </h1>
+    <p class="section-gallery__subtitle section-subheader">
+      Check out our hard workers
+    </p>
+    <div class="section-gallery__gallery-block">
+      <div class="gallery-block__tabs">
+        <span class="gallery-block__tabs-item">Gallery</span>
+        <span class="gallery-block__tabs-item gallery-block__tabs-item--active">
+          Live Stream: Yard 1
+        </span>
+        <span class="gallery-block__tabs-item">Live Stream: Yard 2</span>
+        <span class="gallery-block__tabs-item">Live Stream: Yard 3</span>
+      </div>
+      <div class="gallery-block__tabs-content">
+        <div class="tabs-content__item">
+          <img
+            class="tabs-content__item-image"
+            src="../img/Image.png"
+            alt=""
+            loading="lazy"
+            importance="low"
+          >
+          <div class="tabs-content__item-live">Live</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
