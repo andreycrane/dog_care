@@ -1,0 +1,29 @@
+.section-about {
+  position: relative;
+  padding: 20px 20px;
+  color: #ffffff;
+  background-color: #f5f5f5;
+}
+
+.section-about * {
+  position: relative;
+  z-index: 1;
+}
+
+.section-about__background {
+  position: absolute;
+  top: -20px;
+  margin: 0 -10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background: #5D62B5;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.section-about__image {
+  max-width: 846px;
+  width: 100%;
+  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
+  border-radius: 10px;
+}
