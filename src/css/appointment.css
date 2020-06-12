@@ -1,0 +1,21 @@
+.appointment-section {
+  padding: 10px;
+  text-align: center;
+  background-color: #29c3be;
+  background-image: url('../img/green_background.svg'),
+    url('../img/stylize_circles.svg'),
+    url('../img/tennis_ball.png');
+  background-repeat: no-repeat, no-repeat;
+}
+
+.appointment-section__header {
+  color: #ffffff;
+}
+
+.appointment-section__btn {
+  margin-bottom: 25px;
+}
+
+.appointment-section__image {
+  width: 100%;
+}
