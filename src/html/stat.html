@@ -1,10 +1,13 @@
 <div class="stat-item">
   <img
+    class="stat-item__image"
     src="{{ stat.img }}"
     alt=""
     loading="lazy"
     importance="low"
   />
-  <p class="stat-item__prop">{{ stat.prop }}</p>
-  <p class="stat-item__value">{{ stat.value }}</p>
+  <div class="stat-item__pair-wrapper">
+    <p class="stat-item__value">{{ stat.value }}</p>
+    <p class="stat-item__prop">{{ stat.prop }}</p>
+  </div>
 </div>
