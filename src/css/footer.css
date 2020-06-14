@@ -45,6 +45,9 @@
 
 .logo-title__text {
   margin: 0;
+  font-weight: 900;
+  font-size: 26px;
+  color: #4b4b4b;
 }
 
 .section-footer__logo-subtitle {
