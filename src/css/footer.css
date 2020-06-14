@@ -6,6 +6,29 @@
   background: #f5f5f5;
 }
 
+.section-footer__appointment-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -100px 20px 40px;
+  padding: 23px 20px;
+  border-radius: 20px;
+  background: #5d62b5;
+  color: #ffffff;
+  text-align: center;
+}
+
+.appointmetn-block__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.appointmetn-block__button {
+  box-shadow: none;
+}
+
 .section-footer__logo {
   margin: 0 20px 33px;
 }
@@ -63,7 +86,7 @@
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.15px;
-  color: #4B4B4B;
+  color: #4b4b4b;
   text-decoration: none;
   margin-bottom: 11px;
 }
@@ -92,7 +115,7 @@
 
 .section-footer__copyright {
   color: #ffffff;
-  background-color: #5D62B5;
+  background-color: #5d62b5;
   padding: 23px 20px;
 }
 
