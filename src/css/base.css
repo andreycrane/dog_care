@@ -19,26 +19,18 @@ body {
 }
 
 .section-header {
+  display: flex;
+  align-items: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 12px;
   line-height: 24px;
-  align-items: center;
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
 
 .section-header--purple {
   color: #5d62b5;
-}
-
-.section-header::before {
-  content: '';
-  background: url('../img/header_mark.svg') no-repeat;
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 0 6px 0 0;
 }
 
 .section-subheader {

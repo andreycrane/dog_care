@@ -1,8 +1,9 @@
 <section class="section-about">
   <div class="section-about__background"></div>
-  <h2 class="section-about__title section-header">
-    Who we are
-  </h2>
+  <include
+    src="./src/html/section-header.html"
+    locals='{ "content": "Who we are", "className": "section-about__title" }'
+  ></include>
   <h3 class="section-about__subtitle section-subheader">
     Nemo enim ipsam voluptatem quia voluptas in proident
   </h3>
