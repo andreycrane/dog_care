@@ -2,9 +2,9 @@
   padding: 10px;
   text-align: center;
   background-color: #29c3be;
-  background-image: url('../img/green_background.svg'),
-    url('../img/stylize_circles.svg'),
-    url('../img/tennis_ball.png');
+  background-image: url('../../img/green_background.svg'),
+    url('../../img/stylize_circles.svg'),
+    url('../../img/tennis_ball.png');
   background-repeat: no-repeat, no-repeat;
 }
 

@@ -1,0 +1,15 @@
+@import './mobile/base.css';
+@import './mobile/header.css';
+@import './mobile/about.css';
+@import './mobile/promises.css';
+@import './mobile/promise.css';
+@import './mobile/appointment.css';
+@import './mobile/services.css';
+@import './mobile/service.css';
+@import './mobile/contact.css';
+@import './mobile/gallery.css';
+@import './mobile/customers.css';
+@import './mobile/customer.css';
+@import './mobile/impact.css';
+@import './mobile/stat.css';
+@import './mobile/footer.css';

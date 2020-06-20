@@ -3,9 +3,9 @@
   flex-direction: column;
   padding: 20px 20px 60px;
   background-image:
-    url('../img/about_background.svg'),
-    url('../img/stylize_circles.svg'),
-    url('../img/contact_background.png');
+    url('../../img/about_background.svg'),
+    url('../../img/stylize_circles.svg'),
+    url('../../img/contact_background.png');
   background-size: cover, auto, cover;
   background-repeat: no-repeat;
   background-position: top left, center center, center center;
