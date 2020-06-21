@@ -1,0 +1,11 @@
+.section-services {
+  padding: 110px 20px 112px;
+}
+
+.section-services__title,
+.section-services__subtitle,
+.section-services__services {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
