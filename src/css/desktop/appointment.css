@@ -1,0 +1,15 @@
+.appointment-section {
+  display: flex;
+  justify-content: center;
+}
+
+.appointment-section__action {
+  max-width: 540px;
+  order: 2;
+  text-align: left;
+}
+
+.appointment-section__picture {
+  max-width: 540px;
+  order: 1;
+}
