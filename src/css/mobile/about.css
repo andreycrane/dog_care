@@ -29,7 +29,7 @@
 .section-about__stylize-circles {
   position: absolute;
   top: -50px;
-  right: 0;
+  right: -20px;
   z-index: 1;
 }
 
