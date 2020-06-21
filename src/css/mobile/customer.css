@@ -1,5 +1,5 @@
 .customers-item {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 20px;
   margin-bottom: 24px;
   padding: 44px;
@@ -15,7 +15,6 @@
 
 .customers-item__image {
   float: left;
-  width: 48px;
   width: 48px;
   margin-right: 17px;
 }

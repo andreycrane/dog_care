@@ -14,7 +14,7 @@
   padding: 23px 20px;
   border-radius: 20px;
   background: #5d62b5;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .section-footer__copyright {
-  color: #ffffff;
+  color: #fff;
   background-color: #5d62b5;
   padding: 23px 20px;
 }

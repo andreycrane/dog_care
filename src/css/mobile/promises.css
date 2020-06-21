@@ -6,4 +6,5 @@
 .section-promise__promises {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }

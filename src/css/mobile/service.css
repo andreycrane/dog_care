@@ -2,14 +2,14 @@
   border-radius: 20px;
   margin-bottom: 24px;
   padding: 44px 50px;
-  max-width: 324px;
-  background: #ffffff;
+  background: #fff;
   font-family: Roboto, sans-serif;
 }
 
 .service-item:hover {
-  box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2),
-    0px 8px 16px rgba(38, 38, 38, 0.24);
+  box-shadow:
+    0 16px 24px rgba(38, 38, 38, 0.2),
+    0 8px 16px rgba(38, 38, 38, 0.24);
 }
 
 .service-item__image {

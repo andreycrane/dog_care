@@ -4,6 +4,7 @@
   text-align: center;
   background-image: url('../../img/services_background.svg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-services__title {

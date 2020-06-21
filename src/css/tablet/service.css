@@ -1,0 +1,7 @@
+.service-item {
+  flex: 1 1 48%;
+}
+
+.service-item:nth-child(odd) {
+  margin-right: 20px;
+}
