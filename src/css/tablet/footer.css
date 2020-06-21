@@ -1,0 +1,38 @@
+.section-footer,
+.section-footer__links {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-footer__appointment-block,
+.section-footer__logo,
+.section-footer__socials,
+.section-footer__copyright {
+  flex: 1 1 100%;
+}
+
+.section-footer__socials {
+  margin-bottom: 30px;
+}
+
+.section-footer__links,
+.section-footer__contacts {
+  flex: 1 1 40%;
+  margin-bottom: 30px;
+}
+
+.section-footer__links {
+  margin-right: 0;
+}
+
+.section-footer__contacts {
+  margin-left: 0;
+}
+
+.section-footer__links-title {
+  flex: 1 1 100%;
+}
+
+.section-footer__links-item {
+  flex: 1 1 50%;
+}
