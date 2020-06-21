@@ -21,3 +21,5 @@ npm run build
 [Website template source](https://www.figmacrush.com/dog-daycare-figma-website-template/)
 
 [Dribble source](https://dribbble.com/shots/9156035-Figma-Freebie-Dog-Daycare-Homepage)
+
+[Font-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
