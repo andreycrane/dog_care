@@ -1,7 +1,8 @@
 .section-contact {
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 60px;
+  align-items: center;
+  padding: 20px 20px 80px;
   background-image:
     url('../../img/about_background.svg'),
     url('../../img/stylize_circles.svg'),
