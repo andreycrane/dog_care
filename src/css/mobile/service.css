@@ -4,6 +4,7 @@
   padding: 44px 50px;
   background: #fff;
   font-family: Roboto, sans-serif;
+  transition: box-shadow 0.5s ease;
 }
 
 .service-item:hover {

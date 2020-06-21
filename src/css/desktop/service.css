@@ -1,0 +1,8 @@
+.service-item {
+  max-width: 324px;
+  margin-right: 20px;
+}
+
+.service-item:nth-child(3n) {
+  margin-right: 0;
+}

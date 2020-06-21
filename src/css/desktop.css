@@ -5,4 +5,5 @@
   @import './desktop/promises.css';
   @import './desktop/appointment.css';
   @import './desktop/services.css';
+  @import './desktop/service.css';
 }
