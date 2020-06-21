@@ -1,0 +1,4 @@
+.section-impact__stats {
+  flex-direction: row;
+  flex-wrap: wrap;
+}

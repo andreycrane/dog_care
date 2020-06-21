@@ -6,4 +6,6 @@
   @import './tablet/contact.css';
   @import './tablet/customers.css';
   @import './tablet/customer.css';
+  @import './tablet/impact.css';
+  @import './tablet/stat.css';
 }
