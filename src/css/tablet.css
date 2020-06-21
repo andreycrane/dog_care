@@ -4,4 +4,6 @@
   @import './tablet/services.css';
   @import './tablet/service.css';
   @import './tablet/contact.css';
+  @import './tablet/customers.css';
+  @import './tablet/customer.css';
 }

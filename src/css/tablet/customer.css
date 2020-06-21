@@ -1,0 +1,7 @@
+.customers-item {
+  flex: 1 1 50%;
+}
+
+.customers-item:nth-child(odd) {
+  margin-right: 20px;
+}
