@@ -1,0 +1,14 @@
+.section-contact {
+  flex-direction: row;
+  justify-content: center;
+  padding: 130px 20px 210px;
+}
+
+.section-contact__info-block {
+  padding-left: 111px;
+  order: 2;
+}
+
+.section-contact__form-block {
+  order: 1;
+}
