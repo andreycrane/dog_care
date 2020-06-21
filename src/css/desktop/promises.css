@@ -1,0 +1,11 @@
+.section-promise {
+  padding: 80px 20px 122px;
+}
+
+.section-promise__title,
+.section-promise__subtitle,
+.section-promise__promises {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
