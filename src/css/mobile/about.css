@@ -15,8 +15,7 @@
   top: -25px;
   left: 50%;
   margin: 0 auto;
-  width: 100%;
-  max-width: 300px;
+  width: 90%;
   height: calc(100% - 40px);
   transform: translateX(-50%);
   background: #5d62b5;
@@ -35,7 +34,7 @@
 }
 
 .section-about__text-wrapper {
-  max-width: 280px;
+  max-width: 88%;
   margin: 0 auto;
 }
 
