@@ -1,0 +1,10 @@
+.section-gallery__background {
+  max-width: 1020px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-gallery__wrapper {
+  margin: 0 auto;
+  max-width: 846px;
+}
