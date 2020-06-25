@@ -1,12 +1,14 @@
 <section class="section-customers">
-  <include
-    src="./src/html/section-header.html"
-    locals='{ "content": "our customers", "className": "section-customers__title" }'
-  ></include>
-  <h3 class="section-customers__subtitle section-subheader">
-    Illum qui dolorem eum quo voluptas ut distinctio
-  </h3>
-  <div class="section-customers__wrapper">
+  <div class="section-customers__text-wrapper">
+    <include
+      src="./src/html/section-header.html"
+      locals='{ "content": "our customers", "className": "section-customers__title" }'
+    ></include>
+    <h3 class="section-customers__subtitle section-subheader">
+      Illum qui dolorem eum quo voluptas ut distinctio
+    </h3>
+  </div>
+  <div class="section-customers__items-wrapper">
     <each loop="customer in customers">
       <include src="./src/html/customer.html" locals="{ customer }"></include>
     </each>

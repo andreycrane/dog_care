@@ -8,4 +8,8 @@
   @import './desktop/service.css';
   @import './desktop/contact.css';
   @import './desktop/gallery.css';
+  @import './desktop/customers.css';
+  @import './desktop/impact.css';
+  @import './desktop/stat.css';
+  @import './desktop/footer.css';
 }

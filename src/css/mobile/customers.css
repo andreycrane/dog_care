@@ -5,7 +5,7 @@
   background-size: cover;
 }
 
-.section-customers__wrapper {
+.section-customers__items-wrapper {
   display: flex;
   flex-direction: column;
 }

@@ -1,0 +1,14 @@
+.section-customers {
+  display: flex;
+  justify-content: center;
+  padding: 120px 20px 150px;
+}
+
+.section-customers__text-wrapper {
+  max-width: 320px;
+  margin-right: 20px;
+}
+
+.section-customers__items-wrapper {
+  max-width: 740px;
+}

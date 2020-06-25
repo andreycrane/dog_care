@@ -1,0 +1,25 @@
+.section-impact {
+  position: relative;
+  padding: 112px 20px 212px;
+}
+
+.section-impact__title,
+.section-impact__subtitle,
+.section-impact__stats {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.section-impact__title {
+  margin-bottom: 32px;
+}
+
+.section-impact__subtitle {
+  margin-bottom: 79px;
+}
+
+.section-impact__picture {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+}
