@@ -1,12 +1,13 @@
 .section-footer,
+.section-footer__content-wrapper,
 .section-footer__links {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .section-footer__appointment-block,
-.section-footer__logo,
-.section-footer__socials,
+.section-footer__logo-socials,
 .section-footer__copyright {
   flex: 1 1 100%;
 }

@@ -2,8 +2,28 @@
   position: relative;
 }
 
-.section-footer__appointment-block {
+.section-footer__appointment-block,
+.section-footer__content-wrapper {
   max-width: 1020px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.section-footer__appointment-block {
+  margin-bottom: 88px;
+}
+
+.section-footer__content-wrapper {
+  margin-bottom: 78px;
+}
+
+.section-footer__logo-socials,
+.section-footer__links,
+.section-footer__contacts {
+  flex-basis: 30%;
+}
+
+.section-footer__links-title,
+.section-footer__contacts-title {
+  margin-top: 0;
 }
