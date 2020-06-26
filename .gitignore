@@ -127,3 +127,6 @@ dist
 
 .firebase
 !.firebase/.gitkeep
+
+# Local Netlify folder
+.netlify

@@ -7,11 +7,13 @@
     "dev": "parcel src/html/index.html",
     "devopen": "parcel src/html/index.html --open 'google chrome'",
     "build": "parcel build src/html/index.html",
-    "prebuild": "rm -rf dist"
+    "prebuild": "rm -rf dist",
+    "deploy:manual": "npm run build && netlify deploy --dir=dist -p"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "netlify-cli": "^2.54.0",
     "parcel-bundler": "^1.12.4",
     "posthtml-expressions": "^1.4.1",
     "posthtml-include": "^1.4.3",
