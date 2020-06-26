@@ -27,3 +27,13 @@
 .section-footer__contacts-title {
   margin-top: 0;
 }
+
+.section-footer__copyright {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-footer__copyright-item {
+  margin: 0;
+}
