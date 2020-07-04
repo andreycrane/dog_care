@@ -3,16 +3,26 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 20px 80px;
-  background-image:
-    url('../../img/about_background.svg'),
-    url('../../img/stylize_circles.svg'),
-    url('../../img/contact_background.png');
   background-size: cover, auto, cover;
   background-repeat: no-repeat;
   background-position: top left, center center, center center;
   text-align: center;
   color: #fff;
   font-family: Roboto, sans-serif;
+}
+
+.no-webp .section-contact {
+  background-image:
+    url('../../img/about_background.svg'),
+    url('../../img/stylize_circles.svg'),
+    url('../../img/contact_background.png');
+}
+
+.webp .section-contact {
+  background-image:
+    url('../../img/about_background.svg'),
+    url('../../img/stylize_circles.svg'),
+    url('../../img/contact_background.webp');
 }
 
 .section-contact__info-block {

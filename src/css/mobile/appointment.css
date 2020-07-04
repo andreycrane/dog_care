@@ -2,11 +2,21 @@
   padding: 20px;
   text-align: center;
   background-color: #29c3be;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.no-webp .appointment-section {
   background-image:
     url('../../img/green_background.svg'),
     url('../../img/stylize_circles.svg'),
     url('../../img/tennis_ball.png');
-  background-repeat: no-repeat, no-repeat;
+}
+
+.webp .appointment-section {
+  background-image:
+    url('../../img/green_background.svg'),
+    url('../../img/stylize_circles.svg'),
+    url('../../img/tennis_ball.webp');
 }
 
 .appointment-section__header {
