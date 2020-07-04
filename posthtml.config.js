@@ -89,7 +89,8 @@ module.exports = {
         ],
         customers: [
           {
-            img: '../img/Ellipse 2.png',
+            img: '../img/Ellipse_2.png',
+            imgWebP: '../img/Ellipse_2.webp',
             name: 'Cullen Bohannon',
             review: `
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -99,7 +100,8 @@ module.exports = {
             `,
           },
           {
-            img: '../img/Customer 2.png',
+            img: '../img/Customer_2.png',
+            imgWebP: '../img/Customer_2.webp',
             name: 'Jennifer Thomas',
             review: `
               Sed ut perspiciatis unde omnis iste natus

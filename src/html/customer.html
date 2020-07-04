@@ -3,6 +3,7 @@
     {{ customer.review }}
   </p>
   <picture>
+    <source srcset="{{customer.imgWebP}}" type="image/webp" />
     <img
       class="customers-item__image"
       src="{{ customer.img }}"
